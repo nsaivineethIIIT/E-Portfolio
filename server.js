@@ -21,6 +21,14 @@ app.get('/education', (req, res) => {
   res.render('education', { title: 'Education' });
 });
 
+app.get('/Volunteering', (req, res) => {
+  res.render('Volunteering', { title: 'Volunteering and Extracurricular' });
+});
+
+app.get('/samplesOfWork', (req, res) => {
+  res.render('samplesOfWork', { title: 'Samples Of Work' });
+});
+
 app.get('/experience', (req, res) => {
   res.render('experience', { title: 'Experience' });
 });
